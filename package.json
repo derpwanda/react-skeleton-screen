@@ -1,7 +1,7 @@
 {
   "name": "react-skeleton-screen",
   "version": "1.0.0",
-  "description": "",
+  "description": "creating an alternative loading screen in react.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
