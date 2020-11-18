@@ -1,14 +1,23 @@
 import React from "react";
+import Articles from "./components/Articles";
+import User from "./components/User";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="">
       <header>
-        <h1>Hello CodeSandbox</h1>
+        <h1>React Skeleton</h1>
       </header>
-      <h2>Start editing to see some magic happen!</h2>
 
-      <div className="content"></div>
+      <div className="content">
+        <div className="Articles">
+          <Articles />
+        </div>
+
+        <div className="User">
+          <User />
+        </div>
+      </div>
     </div>
   );
 }
