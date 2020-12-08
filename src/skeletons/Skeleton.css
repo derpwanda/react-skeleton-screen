@@ -31,4 +31,28 @@
 .skeleton-wrapper {
   margin: 20px auto;
   padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/* skeleton profile*/
+
+.skeleton-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
+}
+
+/* themes */
+
+.skeleton-wrapper.light {
+  background: #f2f2f2;
+}
+
+.skeleton-wrapper.dark {
+  background: #444;
+}
+
+.skeleton-wrapper.dark .skelton {
+  background: #777;
 }
